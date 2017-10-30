@@ -3,7 +3,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { MatToolbarModule, MatListModule, MatGridListModule, MatButtonModule, MatCardModule,
   MatDialogModule, MatCheckboxModule, MatFormFieldModule, MatInputModule,
-  MatSelectModule, MatSlideToggleModule } from '@angular/material'; 
+  MatSelectModule, MatSlideToggleModule, MatProgressSpinnerModule } from '@angular/material'; 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms'; 
 import { ReactiveFormsModule } from '@angular/forms';
@@ -47,6 +47,7 @@ import { LoginComponent } from './login/login.component';
     MatCheckboxModule,
     MatSelectModule, 
     MatSlideToggleModule,
+    MatProgressSpinnerModule,
     FlexLayoutModule,
     AppRoutingModule,
     FormsModule,
