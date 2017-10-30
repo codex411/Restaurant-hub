@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { MatToolbarModule, MatListModule, MatGridListModule, MatButtonModule, MatCardModule, MatDialogModule, MatCheckboxModule, MatFormFieldModule } from '@angular/material'; 
+import { MatToolbarModule, MatListModule, MatGridListModule, MatButtonModule, MatCardModule, MatDialogModule, MatCheckboxModule, MatFormFieldModule, MatInputModule } from '@angular/material'; 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms'; 
 
@@ -45,7 +45,8 @@ import { LoginComponent } from './login/login.component';
     FlexLayoutModule,
     AppRoutingModule,
     FormsModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [
     DishService,
