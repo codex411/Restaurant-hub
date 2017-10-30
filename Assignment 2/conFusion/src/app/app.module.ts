@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { MatToolbarModule, MatListModule, MatGridListModule, MatButtonModule } from '@angular/material'; 
+import { MatToolbarModule, MatListModule, MatGridListModule, MatButtonModule, MatCardModule } from '@angular/material'; 
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
@@ -15,6 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 
 import { DishService } from './services/dish.service';
 import { PromotionService } from './services/promotion.service';
+import { LeaderService } from './services/leader.service';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
@@ -35,12 +36,14 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     MatListModule,   
     MatGridListModule, 
     MatButtonModule,
+    MatCardModule,
     FlexLayoutModule,
     AppRoutingModule
   ],
   providers: [
     DishService,
-    PromotionService
+    PromotionService,
+    LeaderService
   ],
   bootstrap: [AppComponent]
 })
