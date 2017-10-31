@@ -94,6 +94,7 @@ export class DishDetailComponent implements OnInit {
         }
       }
     }
+    this.comment = form.value;
   }
 
   onSubmit() {
@@ -101,6 +102,7 @@ export class DishDetailComponent implements OnInit {
     this.comment.date = new Date().toISOString();
     this.dish.comments.push(this.comment);
     console.log(this.comment);
+    this.comment = null;
     this.commentForm.reset({
       author: '',
       comment: '',
