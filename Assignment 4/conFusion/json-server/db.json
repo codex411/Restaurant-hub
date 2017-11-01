@@ -45,6 +45,12 @@
           "comment": "Good dish",
           "rating": 5,
           "date": "2017-10-31T13:53:29.978Z"
+        },
+        {
+          "author": "Test Author",
+          "comment": "Test Comment",
+          "rating": 5,
+          "date": "2017-11-01T14:59:56.422Z"
         }
       ]
     },
