@@ -1,7 +1,7 @@
 import { AppPage } from './app.po';
 import { browser } from 'protractor';
 
-describe('con-fusion App', () => {
+describe('restaurant-hub App', () => {
   let page: AppPage;
 
   beforeEach(() => {

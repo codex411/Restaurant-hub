@@ -1,10 +1,118 @@
-## Synopsis
+# RestaurantHub - Angular Learning Project
 
-This is the assignments repository for Coursera's Front-End JavaScript Frameworks Overview: Angular (https://www.coursera.org/learn/angular). Assignments are classified into their respective directories and you can find assignment instructions in the pdf file in each directory under the actual project folder. In order to run the assignments you will need Node JS and Angular CLI installed. After installation, go into the folder conFusion and run `npm install` to install all the depedencies. Please note this repository is only for the information/audit purposes, don't use it to copy the assignments if you're also taking the course.
+A progressive Angular application demonstrating modern front-end development practices through a restaurant management interface.
 
-## To simulate REST API for Assignment 4
-You can serve REST content by installing  'json-server' using `npm install json-server -g`. After moving to 'json-server' folder in Assignment 4/conFusion in your terminal window, type the following at the command prompt to start the server. This will introduce a delay of 2 seconds before the server sends the reply to a request:
-	`json-server --watch db.json -d 2000`
+## 📋 Overview
 
-The json-server also provides a static web server. Any resources that you put in a folder named public in the json-server folder above, will be served by the server at the following address:
-	http://localhost:3000/
+This repository contains a series of Angular assignments that progressively build a full-featured restaurant application. Each assignment module introduces new concepts and features, from basic components to advanced routing, services, and HTTP integration.
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Node.js** (v8.x or higher)
+- **npm** (v5.x or higher) or **yarn**
+- **Angular CLI** (v1.4.9)
+
+### Installation
+
+1. Clone this repository:
+   ```bash
+   git clone <repository-url>
+   cd Front-End-JavaScript-Frameworks-Overview-Angular
+   ```
+
+2. Navigate to any assignment module:
+   ```bash
+   cd "Assignment 1/conFusion"
+   ```
+
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+
+5. Open your browser and navigate to `http://localhost:4200/`
+
+## 📁 Project Structure
+
+```
+├── Assignment 1/          # Basic components and Material Design
+├── Assignment 2/          # Routing and navigation
+├── Assignment 3/          # Forms and authentication
+└── Assignment 4/          # HTTP services and REST API integration
+```
+
+Each assignment module is self-contained and includes:
+- Complete Angular application
+- Assignment instructions (PDF)
+- Test configuration
+- Development dependencies
+
+## 🛠️ Development
+
+### Available Scripts
+
+- `npm start` - Start the development server
+- `npm run build` - Build for production
+- `npm test` - Run unit tests
+- `npm run lint` - Run linting
+- `npm run e2e` - Run end-to-end tests
+
+### Building for Production
+
+```bash
+npm run build --prod
+```
+
+The build artifacts will be stored in the `dist/` directory.
+
+## 🌐 REST API Server (Assignment 4)
+
+Assignment 4 includes a JSON server for simulating REST API endpoints.
+
+### Setup
+
+1. Install json-server globally:
+   ```bash
+   npm install -g json-server
+   ```
+
+2. Navigate to the json-server directory:
+   ```bash
+   cd "Assignment 4/conFusion/json-server"
+   ```
+
+3. Start the server:
+   ```bash
+   json-server --watch db.json -d 2000
+   ```
+
+The server will:
+- Run on `http://localhost:3000/`
+- Introduce a 2-second delay to simulate network latency
+- Serve static files from the `public/` directory
+
+## 📚 Learning Resources
+
+This project is part of the [Front-End JavaScript Frameworks: Angular](https://www.coursera.org/learn/angular) course on Coursera.
+
+## 📝 Notes
+
+- Each assignment builds upon the previous one
+- Assignment instructions are available as PDF files in each module directory
+- The project uses Angular 4.x with Material Design components
+- All modules are configured for development and testing
+
+## 🤝 Contributing
+
+This repository is maintained for educational purposes. If you're taking the course, please complete assignments independently rather than copying from this repository.
+
+## 📄 License
+
+MIT License - See individual assignment directories for details.
